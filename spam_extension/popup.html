@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeCheck</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Welcome to SafeCheck!</h3>
+
+    <textarea
+      id="textInput"
+      placeholder="Paste email or SMS text here"
+    ></textarea>
+
+    <button id="checkBtn">Check Spam</button>
+
+    <div id="result" class="result-box"></div>
+
+    <div class="bar-container">
+      <div id="spamBar" class="spam-bar"></div>
+    </div>
+
+    <div id="percentText" class="percent-text"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
